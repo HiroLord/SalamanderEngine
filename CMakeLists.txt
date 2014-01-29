@@ -8,7 +8,7 @@ IF(APPLE)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -framework SDL2")
 ENDIF(APPLE)
 
-set( SOURCES lesson3.cpp)
+set( SOURCES main.cpp)
 #set( HEADERS )
 
 # SDL STUFF
