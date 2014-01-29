@@ -8,8 +8,12 @@
 
 #include <SDL/SDL.h>
 #include <SDL/SDL_opengl.h>
+
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
+
+#include <GL/gl.h>
+#include <GL/glu.h>
 
 #include <stdio.h>
 #include <stdlib.h>
