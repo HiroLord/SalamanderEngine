@@ -7,8 +7,8 @@
  */
 
 #include <SDL/SDL.h>
-#include <OpenGL/gl.h>
-#include <OpenGL/glu.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -270,7 +270,7 @@ static void setup_opengl( int width, int height )
     gluPerspective( 60.0, ratio, 1.0, 1024.0 );
 }
 
-int main( int argc, char** argv[] )
+int main( int argc, char* argv[] )
 {
     /* Information about the current video settings. */
     const SDL_VideoInfo* info = NULL;
