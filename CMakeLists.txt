@@ -14,6 +14,7 @@ set( SOURCES main.cpp)
 # SDL STUFF
 include(FindPkgConfig)
 pkg_search_module(SDL2 REQUIRED sdl2)
+#find_package(SDL2 REQUIRED)
 
 set( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ./)
 find_package (SDL2_image REQUIRED)
@@ -37,4 +38,5 @@ target_link_libraries(
 	${OPENGL_LIBRARIES}
 	${SDL2_LIBRARIES}
 	${SDL2_IMAGE_LIBRARY}
+	SDLmain
 )

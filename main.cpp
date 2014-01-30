@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include <SDL.h>
-#include <GL/gl.h>
+#include <SDL2/SDL.h>
+#include <OpenGL/gl.h>
 
 int main(int argc, char *argv[]) {
 	SDL_Window *mainWindow;
