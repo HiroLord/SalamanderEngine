@@ -1,7 +1,11 @@
 #include <iostream>
 
 #include <SDL2/SDL.h>
+#ifdef __APPLE__
 #include <OpenGL/gl.h>
+#else
+#include <GL/gl.h>
+#endif
 
 int main(int argc, char *argv[]) {
 	SDL_Window *mainWindow;
